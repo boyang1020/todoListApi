@@ -1,0 +1,29 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTful todoListApi",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/boyang1020/todoListApi.git"
+  },
+  "keywords": [
+    "RESTful"
+  ],
+  "author": "bo yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boyang1020/todoListApi/issues"
+  },
+  "homepage": "https://github.com/boyang1020/todoListApi#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
